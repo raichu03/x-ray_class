@@ -5,8 +5,8 @@ TRAIN_DIR = os.path.join(DATA_DIR, "train")
 VAL_DIR = os.path.join(DATA_DIR, "val")
 TEST_DIR = os.path.join(DATA_DIR, "test")
 
-BATCH_SIZE = 16
+BATCH_SIZE = 128
 IMG_SIZE = 224
 LR = 1e-4
-EPOCHS = 10
+EPOCHS = 20
 DEVICE = "cuda"
